@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ของ [ชื่อของคุณ] | My GitHub Page</title>
+
+    <style>
+        :root {
+            --primary-color: #007bff; /* สีหลัก: น้ำเงิน */
+            --secondary-color: #6c757d; /* สีรอง: เทา */
+            --background-light: #f8f9fa;
+            --background-dark: #343a40;
+            --text-dark: #212529;
+            --text-light: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-light);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* เริ่มจากด้านบน */
+            min-height: 100vh;
+        }
+
+        .profile-card {
+            background-color: var(--text-light);
+            width: 90%;
+            max-width: 600px;
+            margin: 50px 20px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--primary-color);
+            margin-bottom: 25px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        .tagline {
+            color: var(--secondary-color);
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .about-section {
+            text-align: left;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+        }
+        
+        .about-section h3 {
+            color: var(--text-dark);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 8px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+            font-weight: 600;
+        }
+
+        .social-links a:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: var(--secondary-color);
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        
+        <img src="https://via.placeholder.com/180/007bff/FFFFFF?text=YOUR_PIC" alt="รูปโปรไฟล์" class="profile-img">
+        
+        <h1>[ใส่ ชื่อ-นามสกุล ของคุณที่นี่]</h1>
+        
+        <p class="tagline">นักพัฒนา [ระบุสายงาน: เช่น Front-end, Data Scientist, นักเรียน] | ผู้สร้างบน GitHub</p>
+
+        <div class="about-section">
+            <h3>ประวัติโดยย่อ</h3>
+            <p>
+                ฉันคือคนที่หลงใหลในเทคโนโลยีและการแก้ปัญหาผ่านโค้ด ปัจจุบันกำลังศึกษา/ทำงานในด้าน [ใส่ด้านที่คุณสนใจ]. 
+                ฉันชอบเรียนรู้สิ่งใหม่ๆ และยินดีที่จะเชื่อมต่อกับผู้คนที่มีความสนใจคล้ายกัน!
+            </p>
+            
+            <h3>ทักษะหลัก</h3>
+            <ul>
+                <li>HTML & CSS (พื้นฐาน)</li>
+                <li>[ใส่ภาษาโปรแกรม: เช่น Python, JavaScript]</li>
+                <li>[ใส่เครื่องมือ: เช่น Git, Docker]</li>
+            </ul>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/[ชื่อผู้ใช้]" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/[ชื่อผู้ใช้]" target="_blank">LinkedIn</a>
+            <a href="mailto:youremail@example.com">Email</a>
+            <a href="#">Portfolio/Blog (ถ้ามี)</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 [ชื่อของคุณ]. สงวนลิขสิทธิ์. | โฮสต์โดย GitHub Pages
+        </div>
+    </div>
+
+</body>
+</html>
